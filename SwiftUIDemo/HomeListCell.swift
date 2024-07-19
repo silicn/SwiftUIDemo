@@ -10,6 +10,8 @@ import SwiftUI
 
 struct HomeListCell: View {
     var title:String
+    var subTitle:String?
+    
     init(title:String){
         self.title = title;
     }
