@@ -9,6 +9,10 @@
 import SwiftUI
 
 struct MinePage: View {
+    
+    var title:String?
+    var subTitle:String?
+    
     var body: some View {
         Text("MinePage")
     }
