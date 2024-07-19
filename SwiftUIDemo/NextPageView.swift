@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct NextPageView: View {
+    var title:String?
+    
     var body: some View {
         Text("this is Next Page").navigationBarTitle(Text("详情页"))
     }
