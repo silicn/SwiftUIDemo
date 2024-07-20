@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct OrderPage: View {
+    var title:String?
     var body: some View {
         Text("OrderPage")
     }
