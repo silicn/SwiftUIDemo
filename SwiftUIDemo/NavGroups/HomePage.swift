@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HomePage: View {
     @State var showAlert = false
-    
+    var title:String?
     var body: some View {
         NavigationView{
             List{
