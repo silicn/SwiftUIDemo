@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ManagerPage: View {
+    var title:String?
     var body: some View {
         Text("ManagerPage")
     }
